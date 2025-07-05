@@ -80,11 +80,11 @@ Visit: http://localhost:5000
 ## 🧪 Sample Inputs to Try
 
 
-1. **"I have a fever and headache, what should I do?"
+1. "I have a fever and headache, what should I do?"
 
-2. **"My friend is having a seizure!"
+2. "My friend is having a seizure!"
 
-3. **"Can I take paracetamol with ibuprofen?"
+3. "Can I take paracetamol with ibuprofen?"
 
 
 ## 📄 License
