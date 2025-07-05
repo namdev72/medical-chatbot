@@ -18,6 +18,7 @@ An intelligent AI-powered medical chatbot built with **Flask** and **IBM Watsonx
 ## 📁 Project Structure
 
 
+```bash
 medical-chatbot/
 ├── app.py # Flask backend
 ├── templates/
@@ -25,6 +26,7 @@ medical-chatbot/
 ├── .env # API key storage (excluded from repo)
 ├── requirements.txt # Python dependencies
 └── README.md # Documentation file
+```
 
 ---
 
