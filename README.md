@@ -1,3 +1,81 @@
+🧠 AI-Powered Medical Responses: Uses IBM Watson AI for intelligent medical query processing 🆘 Emergency Detection: Automatically detects medical emergencies and provides immediate guidance 💬 Interactive Chat Interface: ...
+
+
+# 🩺 Medical Chatbot with Emergency Detection
+
+An intelligent medical chatbot application built with Flask and IBM Watson AI that provides medical information and includes emergency detection capabilities for critical medical situations.
+
+---
+
+## 🎯 Key Features
+
+- 🧠 **AI-Powered Medical Responses**: Uses IBM Watson AI for intelligent medical query processing  
+- 🆘 **Emergency Detection**: Automatically detects medical emergencies and provides immediate guidance  
+- 💬 **Interactive Chat Interface**: Real-time conversational medical assistance  
+- 🔍 **Smart Keyword Recognition**: Identifies emergency keywords like _"can't move"_, _"seizure"_, _"choking"_  
+- 🌐 **Web-Based Application**: Responsive Flask web interface  
+- ⚡ **Instant Emergency Response**: Triggers emergency protocols when critical terms are detected
+
+---
+
+## 📁 Project Structure
+
+medical-chatbot/
+├── app.py
+├── templates/
+│ └── index.html
+├── .env # Not shared in repo
+├── requirements.txt
+└── README.md
+
+
+
+---
+
+## 🔍 How It Works
+
+### Emergency Detection System
+
+The chatbot includes a sophisticated emergency detection system that:
+
+1. **Monitors User Input**: Scans all user messages for emergency keywords  
+2. **Instant Alerts**: Detects critical terms like _"can't move"_, _"seizure"_, _"choking"_  
+3. **Immediate Response**: Provides emergency guidance and prioritizes responses over general medical queries  
+
+---
+
+## 🚀 Installation & Setup
+
+```bash
+git clone https://github.com/yourusername/medical-chatbot.git
+cd medical-chatbot
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+
+Create a .env file:
+API_KEY=your_watsonx_api_key
+MODEL_ID=your_model_id
+
+
+Run the app:
+
+bash
+Copy
+Edit
+python app.py
+Open http://localhost:5000 in your browser.
+
+
+⚠️ Disclaimer
+This chatbot is not a substitute for medical professionals. Always consult a doctor for serious concerns.
+
+📄 License
+MIT License
+
+
+
 🏥 Medical Chatbot with Emergency Detection
 An intelligent medical chatbot application built with Flask and IBM Watson AI that provides medical information and includes emergency detection capabilities for critical medical situations.
 
