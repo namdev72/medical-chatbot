@@ -1,6 +1,10 @@
 🏥 Medical Chatbot with Emergency Detection
 An intelligent medical chatbot application built with Flask and IBM Watson AI that provides medical information and includes emergency detection capabilities for critical medical situations.
 
+
+
+
+
 🚨 Key Features
 
 🤖 AI-Powered Medical Responses: Uses IBM Watson AI for intelligent medical query processing
@@ -9,6 +13,10 @@ An intelligent medical chatbot application built with Flask and IBM Watson AI th
 🔍 Smart Keyword Recognition: Identifies emergency keywords like "can't move", "seizure", "choking"
 🌐 Web-Based Application: Responsive Flask web interface
 ⚡ Instant Emergency Response: Immediate emergency protocols when critical situations are detected
+
+
+
+
 
 
 📋 Project Structure
@@ -21,9 +29,16 @@ medical-chatbot/
 ├── requirements.txt
 └── README.md
 
+
+
+
+
+
 🎯 How It Works
 Emergency Detection System
 The chatbot includes a sophisticated emergency detection system that:
+
+
 
 1. Monitors User Input: Scans all user messages for emergency keywords
 2. Instant Alert: Detects critical terms like:
@@ -33,6 +48,9 @@ The chatbot includes a sophisticated emergency detection system that:
 Other emergency indicators
 3. Immediate Response: Provides emergency guidance and contact information
 Safety First: Prioritizes emergency responses over regular medical queries
+
+
+
 
 🚀 Installation & Setup
 
@@ -63,6 +81,8 @@ bashpython app.py
 
 Open browser: http://localhost:5000
 Start chatting with the medical bot
+
+
 
 
 Important Note
