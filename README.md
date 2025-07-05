@@ -19,6 +19,7 @@ An intelligent medical chatbot application built with Flask and IBM Watson AI th
 ---
 
 ## 📁 Project Structure
+--- bash
 
 medical-chatbot/
 ├── app.py
@@ -46,7 +47,7 @@ The chatbot includes a sophisticated emergency detection system that:
 
 ## 🚀 Installation & Setup
 
-```bash
+--- bash
 git clone https://github.com/yourusername/medical-chatbot.git
 cd medical-chatbot
 python -m venv venv
@@ -61,7 +62,7 @@ MODEL_ID=your_model_id
 
 Run the app:
 
-bash
+---bash
 Copy
 Edit
 python app.py
