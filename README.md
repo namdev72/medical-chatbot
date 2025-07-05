@@ -46,5 +46,53 @@ The chatbot includes a built-in system that:
 ```bash
 git clone https://github.com/yourusername/medical-chatbot.git
 cd medical-chatbot
+```
+
+### 2. Create Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+```
+
+### 3.Install Dependencies
+```bash
+Copy
+Edit
+```
+
+### 4. Add Environment Variables(.env)
+```bash
+API_KEY=your_ibm_watsonx_api_key
+MODEL_ID=your_model_id
+```
+
+### 5.Run the App
+```bash
+python app.py
+```
+
+Visit: http://localhost:5000
+
+---
+
+## 🧪 Sample Inputs to Try
+
+
+1. **"I have a fever and headache, what should I do?"
+
+2. **"My friend is having a seizure!"
+
+3. **"Can I take paracetamol with ibuprofen?"
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Use at your own risk. This chatbot does not replace professional medical advice.
+
+## 👨‍💻 Author
+
+Developed by [namdev72](https://github.com/namdev72)
 
 
